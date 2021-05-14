@@ -15,7 +15,7 @@ by ctemple@163.com
 
 4)每次执行agent.btexec()
 
-  序列节点执行会执行到一次返回BT_RUNNING\或者返回BT_FAILURE\或者执行完;
+  序列节点执行会执行到一次返回BT_RUNNING\或者返回BT_FAILURE\或者子节点都执行完;
   
-  选择节点执行会执行到一次返回BT_RUNNING\或者返回BT_SUCCESS\或者子几点都执行完;
+  选择节点执行会执行到一次返回BT_RUNNING\或者返回BT_SUCCESS\或者子节点都执行完;
 
